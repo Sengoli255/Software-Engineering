@@ -42,7 +42,7 @@
 
     <nav class="navbar navbar-expand navbar-dark bg-dark static-top">
 
-      <a class="navbar-brand mr-1" href="index.php">Food Ordering System</a>
+      <a class="navbar-brand mr-1" href="index.php">Restaurant Menu</a>
 
       <button class="btn btn-link btn-sm text-white order-1 order-sm-0" id="sidebarToggle" href="#">
         <i class="fas fa-bars"></i>
@@ -151,7 +151,7 @@
 								<tr>
 									<td>#</td>
 									<td>Item Name</td>
-									<td>Price (RM)</td>
+									<td>Price (TZS)</td>
 									<td>Options</td>
 								</tr>
 							<?php
@@ -286,7 +286,7 @@
 		            <input type="text" required="required" class="form-control" name="itemName" placeholder="Soup,Pepsi,etc" >
 		        </div>
 		        <div class="form-group">
-		            <label class="col-form-label">Price (RM):</label>
+		            <label class="col-form-label">Price (TZS):</label>
 		            <input type="text" required="required" class="form-control" name="itemPrice" placeholder="10.00" >
 		            <input type="hidden" name="menuID" id="menuid">
 		        </div>
@@ -317,7 +317,7 @@
 		            <input type="text" required="required" id="itemname" class="form-control" name="itemName" placeholder="Soup,Pepsi,etc" >
 		        </div>
 		        <div class="form-group">
-		            <label class="col-form-label">Price (RM):</label>
+		            <label class="col-form-label">Price (TZS):</label>
 		            <input type="text" required="required" id="itemprice" class="form-control" name="itemPrice" placeholder="10.00" >
 		            <input type="hidden" name="menuID" id="menuid">
 		            <input type="hidden" name="itemID" id="itemid">
