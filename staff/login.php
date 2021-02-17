@@ -19,7 +19,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>FOS Staff - Login</title>
+    <title>Staff Login</title>
 
     <!-- Bootstrap core CSS-->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -36,7 +36,7 @@
 
   </head>
 
-  <body style ="background-image:url(image/p4.jpg);background-repeat:no-repeat;width:100%;height:100%;"; >
+  <body style ="background:url(image/p4.jpg);background-size:cover"; >
 
     <div class="container">
       <div class="card card-login mx-auto mt-5">

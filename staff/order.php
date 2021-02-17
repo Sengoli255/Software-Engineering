@@ -25,7 +25,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Order - FOS Staff</title>
+    <title>Staff Order</title>
 
     <!-- Bootstrap core CSS-->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -181,7 +181,7 @@
 								<th>Name</th>
 								<th>Price</th>
 								<th>Qty</th>
-								<th>Total (RM)</th>
+								<th>Total (TZS)</th>
 							</tr>
 						</table>
 						<input class="btn btn-success" type="submit" name="sentorder" value="Send">
