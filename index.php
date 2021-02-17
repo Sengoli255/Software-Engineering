@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Food Ordering System</title>
+    <title>Restaurant</title>
 	<style>
 		.head2{
 		
@@ -48,12 +48,10 @@
 		 
 		}
 		body{
-			width:100%;
-			height:100%;
+			
 			background-image: url("image/p8.jpg");
 			background-repeat:no-repeat;
-			width:100%;
-			height:100%;
+			
 		}
 		
 		.head{
@@ -61,16 +59,17 @@
 			color:white;
 			background-color:#eb346b;
 		}
+	
 		
 	</style>				
 </head>
 <body >
 
-<div class="head">
+<section class="head">
 <hr>
-<h1 style="text-align:center;">DeliciousFood Restaurant</h1>
+<h1 style="text-align:center;">Restaurant</h1>
 <hr>
-</div>
+</section>
 
 <div class="head2">
 	 <button class="btn" onclick="window.location.href='staff'">Staff Login</button></div>
