@@ -11,6 +11,7 @@
   <head>
 
     <meta charset="utf-8">
+    <link rel="stylesheet" type = "text/css" href ="staff/css/foodlist.css">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
@@ -29,27 +30,23 @@
 
     <!-- Custom styles for this template-->
     <link href="admin/css/sb-admin.css" rel="stylesheet">
+    <link rel="stylesheet" type = "text/css" href ="staff/css/foodlist2.css">
 
   </head>
 
   <body id="page-top">
 
-    <nav class="navbar navbar-expand navbar-dark bg-dark static-top">
+    <nav style="display:flex; justify-content:space-between;"class="navbar navbar-expand navbar-dark bg-dark static-top" style="margin-top:0">
 
-      <a class="navbar-brand mr-1" href="index.php">Restaurant</a>
+      <a class="navbar-brand mr-1" href="index.php"> Restaurant</a>
 
-      <button class="btn btn-link btn-sm text-white order-1 order-sm-0" id="sidebarToggle" href="#">
+      <!-- <button class="btn btn-link btn-sm text-white order-1 order-sm-0" id="sidebarToggle" href="#">
         <i class="fas fa-bars"></i>
-      </button>
+      </button> -->
 
+      <a href="login.php" style="text-decoration:none; color:white;" value="login" >Login</a>
       <!-- Navbar -->
-      <ul class="navbar-nav ml-auto ml-md-0">
-        <li class="nav-item dropdown no-arrow">
-          <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            <i class="fas fa-user-circle fa-fw"></i>
-          </a>
-        </li>
-      </ul>
+
 
     </nav>
 
@@ -113,12 +110,12 @@ if (mysqli_num_rows($result) > 0)
 
 <form action="staff/insertorder.php" method="POST">
 <div class="mypanel" align="center";>
-<img src="image/<?php echo $row["image"]; ?>" height="250" width="200" >
+<img src='image/<?php echo $row["image"]; ?>'' height="250" width="200" >
 <h4 class="text-dark"><?php echo $row["menuItemName"]; ?></h4>
 <h5 class="text-danger">Tsh <?php echo $row["price"]; ?>/-</h5>
-<input type="hidden" name="hidden_name" value="<?php echo $row["name"]; ?>">
-<input type="hidden" name="hidden_price" value="<?php echo $row["price"]; ?>">
-<input type="hidden" name="hidden_RID" value="<?php echo $row["R_ID"]; ?>">
+<input type="hidden" name="hidden_name" value='<?php echo $row["name"]; ?>'>
+<input type="hidden" name="hidden_price" value='<?php echo $row["price"]; ?>'>
+<input type="hidden" name="hidden_RID" value='<?php echo $row["R_ID"]; ?>'>
 </div>
 </form>
 
@@ -159,17 +156,14 @@ else
 ?>
 
 </div>
-<div class="row">
+<div class="row" style="margin-top:30px">
+          <div class="col-lg-1"></div>
 
-            <div class="col-lg-6">
+            <div class="col-lg-5">
               <div class="card mb-3">
                 <div class="card-header">
                   <i class="fas fa-utensils"></i>
-                  Take Order</div>
-        
-
-
-        
+                  Take Order</div> 
 
                 <div class="card-body">
                   <table class="table table-bordered text-center" width="100%" cellspacing="0">
@@ -210,7 +204,7 @@ else
               </div>
             </div>
 
-            <div class="col-lg-6">
+            <div class="col-lg-5">
               <div class="card mb-3">
                 <div class="card-header">
                   <i class="fas fa-chart-bar""></i>
@@ -238,13 +232,7 @@ else
         <!-- /.container-fluid -->
 
         <!-- Sticky Footer -->
-        <footer class="sticky-footer" style="width:100%">
-          <div class="container my-auto" >
-            <div class="copyright text-center my-auto">
-              <span>Restaurant ©2021</span>
-            </div>
-          </div>
-        </footer>
+
 
       </div>
       <!-- /.content-wrapper -->

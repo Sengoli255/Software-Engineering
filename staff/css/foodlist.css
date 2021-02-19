@@ -42,10 +42,7 @@ body,html {
     color: #ffffff;
   
   }
-  
-  footer{
-    display: block;
-  }
+ 
   
   .mypanel{
     border: 1px solid #eaeaec; 
@@ -56,7 +53,11 @@ body,html {
     border-radius: 5px;
   }
   
-  
+   
+  footer{
+    display: block;
+  }
+
   input{
     border: 5px solid white;
   }

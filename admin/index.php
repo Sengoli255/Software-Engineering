@@ -44,7 +44,7 @@
 
     <nav class="navbar navbar-expand navbar-dark bg-dark static-top">
 
-      <a class="navbar-brand mr-1" href="index.php">Food Ordering System</a>
+      <a class="navbar-brand mr-1" href="index.php">Restaurant</a>
 
       <button class="btn btn-link btn-sm text-white order-1 order-sm-0" id="sidebarToggle" href="#">
         <i class="fas fa-bars"></i>
@@ -63,7 +63,7 @@
 
     <div id="wrapper">
 
-      <!------------------ Sidebar ------------------->
+      <!--- Sidebar --->
       <ul class="sidebar navbar-nav">
         <li class="nav-item">
           <a class="nav-link" href="index.php">
@@ -187,7 +187,7 @@
         <footer class="sticky-footer">
           <div class="container my-auto">
             <div class="copyright text-center my-auto">
-              <span>Copyright © Food Ordering System 2018</span>
+              <span>Copyright © Restaurant 2021</span>
             </div>
           </div>
         </footer>
