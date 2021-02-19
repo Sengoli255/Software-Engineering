@@ -22,7 +22,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Menu - FOS Admin</title>
+    <title>Admin Menu</title>
 
     <!-- Bootstrap core CSS-->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -208,7 +208,7 @@
         <footer class="sticky-footer">
           <div class="container my-auto">
             <div class="copyright text-center my-auto">
-              <span>Copyright © Food Ordering System 2018</span>
+              <span>Copyright © Restaurant 2021</span>
             </div>
           </div>
         </footer>

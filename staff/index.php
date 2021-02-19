@@ -180,7 +180,7 @@
         <footer class="sticky-footer">
           <div class="container my-auto">
             <div class="copyright text-center my-auto">
-              <span>Copyright © Food Ordering System 2018</span>
+              <span>Copyright © Restaurant 2021</span>
             </div>
           </div>
         </footer>
