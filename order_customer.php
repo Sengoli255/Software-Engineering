@@ -16,7 +16,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Order - FOS Staff</title>
+    <title>Staff Order</title>
 
     <!-- Bootstrap core CSS-->
     <link href="staff/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">

@@ -19,7 +19,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Sales - FOS Admin</title>
+    <title>Sales -Admin</title>
 
     <!-- Bootstrap core CSS-->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -122,19 +122,19 @@
                 <tbody>
                   <tr>
                     <td>Today</td>
-                    <td>RM <?php echo getSalesGrandTotal("DAY"); ?></td>
+                    <td>TZS <?php echo getSalesGrandTotal("DAY"); ?></td>
                   </tr>
                   <tr>
                     <td>This Week</td>
-                    <td>RM <?php echo getSalesGrandTotal("WEEK"); ?></td>
+                    <td>TZS <?php echo getSalesGrandTotal("WEEK"); ?></td>
                   </tr>
                   <tr>
                     <td>This Month</td>
-                    <td>RM <?php echo getSalesGrandTotal("MONTH"); ?></td>
+                    <td>TZS <?php echo getSalesGrandTotal("MONTH"); ?></td>
                   </tr>
                   <tr class="table-info">
                     <td><b>All Time</b></td>
-                    <td><b>RM <?php echo getSalesGrandTotal("ALLTIME"); ?></b></td>
+                    <td><b>TZS <?php echo getSalesGrandTotal("ALLTIME"); ?></b></td>
                   </tr>
                 </tbody>
               </table>
@@ -153,7 +153,7 @@
                       <th>Item Name</th>
                       <th class='text-center'>Quantity</th>
                       <th class='text-center'>Status</th>
-                      <th class='text-center'>Total (RM)</th>
+                      <th class='text-center'>Total (TZS)</th>
                       <th class='text-center'>Date</th>
                     </thead>
                     
