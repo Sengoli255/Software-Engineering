@@ -36,7 +36,7 @@
 
   <body id="page-top">
 
-    <nav style="display:flex; justify-content:space-between;"class="navbar navbar-expand navbar-dark bg-dark static-top">
+    <nav style="display:flex; justify-content:space-between;"class="navbar navbar-expand navbar-dark bg-dark static-top" style="margin-top:0">
 
       <a class="navbar-brand mr-1" href="index.php"> Restaurant</a>
 
@@ -232,13 +232,7 @@ else
         <!-- /.container-fluid -->
 
         <!-- Sticky Footer -->
-        <footer class="sticky-footer " style="width:100%; position: fixed !important; bottom: 0px; left: 0px">
-          <div class="container my-auto" >
-            <div class="copyright text-center my-auto">
-              <span>Restaurant ©2021</span>
-            </div>
-          </div>
-        </footer>
+
 
       </div>
       <!-- /.content-wrapper -->

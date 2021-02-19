@@ -74,7 +74,7 @@
 <div class="head2">
 	 <button class="btn" onclick="window.location.href='staff'">Staff Login</button></div>
 	<div class="head3">
-	 <button class="btn" onclick="window.location.href='admin'">Admin Login</button>
+	 <button class="btn" onclick="window.location.href='admin/login.php'">Admin Login</button>
 	</div>
 	
 </body>
