@@ -29,6 +29,7 @@
 
     <!-- Custom styles for this template-->
     <link href="admin/css/sb-admin.css" rel="stylesheet">
+    <link rel="stylesheet" type = "text/css" href ="staff/css/foodlist2.css">
 
   </head>
 
@@ -159,9 +160,10 @@ else
 ?>
 
 </div>
-<div class="row">
+<div class="row" style="margin-top:30px">
+          <div class="col-lg-1"></div>
 
-            <div class="col-lg-6">
+            <div class="col-lg-5">
               <div class="card mb-3">
                 <div class="card-header">
                   <i class="fas fa-utensils"></i>
@@ -210,7 +212,7 @@ else
               </div>
             </div>
 
-            <div class="col-lg-6">
+            <div class="col-lg-5">
               <div class="card mb-3">
                 <div class="card-header">
                   <i class="fas fa-chart-bar""></i>
