@@ -1,17 +1,17 @@
-# **Restaurant Mangement System**
+# *Restaurant Mangement System*
 
 Food Ordering System is a web application that manages the restaurant menu order of the customer and helps a manager to track orders in order to create sales report easily.
 
-#Login Details
+# Login Details
 For admin:
-"admin"
-"password"
+ 1. username="admin"
+ 2. password="password"
 
 For staff:
-check database
+ 1. check database
 
 
-#How To Run The Project?
+# How To Run The Project?
 
 To run this project, you must have installed a virtual server i.e XAMPP on your PC (for Windows).
 After Starting Apache and MySQL in XAMPP, follow the following steps;
@@ -31,9 +31,9 @@ After Creating Database,
 9th Step: Open a browser and go to URL “http://localhost/testrepo/”
 
 
-**Contribution**
+# Contribution
 
-This project has been contributed by;
+The contributors of this project are;
  1. Shapa Stephen
  2. Mariam Haule
  3. Kiwele Mussa
