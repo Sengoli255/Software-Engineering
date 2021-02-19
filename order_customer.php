@@ -34,7 +34,7 @@
 
   <body id="page-top">
 
-    <nav class="navbar navbar-expand navbar-dark bg-dark static-top">
+    <nav class="navbar navbar-expand navbar-dark bg-dark static-top" style="margin-top:0px">
 
       <a class="navbar-brand mr-1" href="index.php">Food Ordering System</a>
 
@@ -88,7 +88,7 @@ if (mysqli_num_rows($result) > 0)
 ?>
 <div class="col-md-3">
 
-<form action="insertorder.php" method="POST">
+<form action="staff/insertorder.php" method="POST">
 <div class="mypanel" align="center";>
 <img src="image/<?php echo $row["image"]; ?>" height="250" width="200" >
 <h4 class="text-dark"><?php echo $row["menuItemName"]; ?></h4>
@@ -98,7 +98,7 @@ if (mysqli_num_rows($result) > 0)
 <input type="hidden" name="hidden_name" value="<?php echo $row["name"]; ?>">
 <input type="hidden" name="hidden_price" value="<?php echo $row["price"]; ?>">
 <input type="hidden" name="hidden_RID" value="<?php echo $row["R_ID"]; ?>">
-<input type="submit" name="add" style="margin-top:5px; background-color: #007BFF;"  class="btn btn-success" value="Make Order">
+<input type="submit" name="add" onclick="insertItem ()" style="margin-top:5px; background-color: #007BFF;"  class="btn btn-success" value="Make Order">
 </div>
 </form>
 
