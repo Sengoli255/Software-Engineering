@@ -30,12 +30,13 @@
 
     <!-- Custom styles for this template-->
     <link href="admin/css/sb-admin.css" rel="stylesheet">
+    <link rel="stylesheet" type = "text/css" href ="staff/css/foodlist2.css">
 
   </head>
 
   <body id="page-top">
 
-    <nav style="display:flex; justify-content:space-between;"class="navbar navbar-expand navbar-dark bg-dark static-top">
+    <nav style="display:flex; justify-content:space-between;"class="navbar navbar-expand navbar-dark bg-dark static-top" style="margin-top:0">
 
       <a class="navbar-brand mr-1" href="index.php"> Restaurant</a>
 
@@ -155,9 +156,10 @@ else
 ?>
 
 </div>
-<div class="row">
+<div class="row" style="margin-top:30px">
+          <div class="col-lg-1"></div>
 
-            <div class="col-lg-6">
+            <div class="col-lg-5">
               <div class="card mb-3">
                 <div class="card-header">
                   <i class="fas fa-utensils"></i>
@@ -202,7 +204,7 @@ else
               </div>
             </div>
 
-            <div class="col-lg-6">
+            <div class="col-lg-5">
               <div class="card mb-3">
                 <div class="card-header">
                   <i class="fas fa-chart-bar""></i>
@@ -230,13 +232,7 @@ else
         <!-- /.container-fluid -->
 
         <!-- Sticky Footer -->
-        <footer class="sticky-footer " style="width:100%; position: fixed !important; bottom: 0px; left: 0px">
-          <div class="container my-auto" >
-            <div class="copyright text-center my-auto">
-              <span>Restaurant ©2021</span>
-            </div>
-          </div>
-        </footer>
+
 
       </div>
       <!-- /.content-wrapper -->
