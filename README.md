@@ -1,6 +1,6 @@
 # *Restaurant Mangement System*
 
-Food Ordering System is a web application that manages the restaurant menu order of the customer and helps a manager to track orders in order to create sales report easily.
+Restaurant Management System is a web application that manages the restaurant menu order of the customer and helps a manager to track orders in order to create sales report easily.
 
 # Login Details
 For admin:
