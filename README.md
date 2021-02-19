@@ -21,6 +21,7 @@ After Starting Apache and MySQL in XAMPP, follow the following steps;
 3. Paste in xampp/htdocs/
 
 Now Connecting Database
+
 4. Open a browser and go to URL “http://localhost/phpmyadmin/”
 5. Then, click on the databases tab
 6. Create a database naming “restaurant” and then click on the import tab
@@ -28,6 +29,7 @@ Now Connecting Database
 8. Click on go.
 
 After Creating Database,
+
 9. Open a browser and go to URL “http://localhost/testrepo/”
 
 
